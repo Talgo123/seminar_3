@@ -4,7 +4,7 @@
 // A (7,-5); B (1,-1) -> 7,21
 
 
- int EnterPointCoordinate(string str)
+ double EnterPointCoordinate(string str)
 {
     Console.WriteLine(str);
     double number1 = double.Parse(Console.ReadLine());
